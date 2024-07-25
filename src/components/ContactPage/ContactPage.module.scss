@@ -1,0 +1,53 @@
+// src/pages/ContactPage.module.scss
+.contact {
+    margin-top: 60%;
+    margin: 50px auto 0;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .formGroup {
+      margin-bottom: 15px;
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+  
+      textarea {
+        resize: vertical;
+      }
+    }
+  
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+  
+      &:hover {
+        background: #0056b3;
+      }
+    }
+  }
+  
