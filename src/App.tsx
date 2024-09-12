@@ -9,7 +9,7 @@ import AuthContextProvider from "./context/authContext";
 import PageNotFound from "./pages/PageNotFound";
 import AboutPage from "./components/AboutPage/AboutPage";
 import ContactPage from "./components/ContactPage/ContactPage";
-import MainVirtual from "./components/MainVirtual";
+
 
 
 function App() {

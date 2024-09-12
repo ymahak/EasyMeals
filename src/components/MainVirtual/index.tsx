@@ -7,7 +7,7 @@ import { AuthContext } from "../../context/authContext";
 
 
 const MainVirtual = () => {
-  const { userData } = useContext(AuthContext);
+  //const { userData } = useContext(AuthContext);
   const { mainBannerId, blogData } = useContext(AppContext);
   const [selectData] = blogData.filter((i) => i.id === mainBannerId);
   return (
